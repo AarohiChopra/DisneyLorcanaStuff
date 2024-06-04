@@ -3,18 +3,30 @@
 Thoughts:
 
 Explain card game and motivation
+
 Explain attributes of a card
+
 Explain attributes of a deck
+
 Explain the goal of the model
+
 Build a deck
+
 Also look(EDA) at card data
+
 Explain why NLP is good - next CARD prediction
+
 First tried regular NLP-type things, LSTM, transformer
+
 Ran into issues → predicts the same card over and over because of the way decklists are formatted
+
 Tried shuffling → still same issue - can it be resolved with setting the card max to 4, but that’s lowkey cheating
 Considered bag of words
+
 Using ngrams → issue again is that the closest cards are the same, so get lots of repeat → its better though!!!
+
 Tried shuffling, then we get repeats of cards later on, so not in order, but still issue
+
 
 --------------
 References:
